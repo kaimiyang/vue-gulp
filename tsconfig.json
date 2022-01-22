@@ -31,12 +31,12 @@
     ]
   },
   "include": [
-    // "src/**/*.ts",
-    // "src/**/*.tsx",
-    // "src/**/*.vue",
-    // "tests/**/*.ts",
-    // "tests/**/*.tsx"
-    "src/**/**/*"
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+    // "src/**/**/*"
   ],
   "exclude": [
     "node_modules"
