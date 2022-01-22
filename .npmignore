@@ -1,0 +1,14 @@
+/public
+/src
+/tests
+/node_modules
+
+.babelrc
+.gitignore
+.npmignore
+.vscode
+
+#json
+package-lock.json
+tsconfig.json
+yarn.lock
