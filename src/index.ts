@@ -1,6 +1,8 @@
-import StringComponent from './extends/stringComponent'
+import stringComponent from './extends/stringComponent'
 import TemplateWarp from './components/TemplateWarp'
+import {browserJudgment} from './utils/browser'
 export {
-  StringComponent,
-  TemplateWarp
+  stringComponent,
+  TemplateWarp,
+  browserJudgment
 }
