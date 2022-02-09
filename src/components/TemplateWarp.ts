@@ -9,8 +9,9 @@ const TemplateWarp = Vue.component('template-warp', {
   watch: {
     'reqData': {
       handler(val) {
-        let refs : any = this.$refs
+        const refs : any = this.$refs
         refs.templateContent.innerHTML = `<div id="templateSTR" />`
+        this.compileString()
       },
       deep: true
     }
