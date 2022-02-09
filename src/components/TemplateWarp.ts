@@ -6,6 +6,11 @@ const TemplateWarp = Vue.component('template-warp', {
   data() {
     return {}
   },
+  mounted() {
+    if (this.reqData) {
+      this.compileString()
+    }
+  },
   watch: {
     'reqData': {
       handler(val) {
